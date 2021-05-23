@@ -1,0 +1,134 @@
+classes: ['cat', 'dog']
+classes_index: {'cat': 0, 'dog': 1}
+train data set: 2000
+test data set: 1000
+--------------------------------------------------
+Epoch1/5
+ --------------------------------------------------
+Batch 10,        Image 100,      Train Loss:1.0441,      Train ACC:58.0000%
+Batch 20,        Image 200,      Train Loss:0.5841,      Train ACC:72.5000%
+Batch 30,        Image 300,      Train Loss:0.4274,      Train ACC:77.3333%
+Batch 40,        Image 400,      Train Loss:0.3402,      Train ACC:80.5000%
+Batch 50,        Image 500,      Train Loss:0.2865,      Train ACC:81.6000%
+Batch 60,        Image 600,      Train Loss:0.2497,      Train ACC:82.3333%
+Batch 70,        Image 700,      Train Loss:0.2199,      Train ACC:83.7143%
+Batch 80,        Image 800,      Train Loss:0.1978,      Train ACC:85.1250%
+Batch 90,        Image 900,      Train Loss:0.1793,      Train ACC:86.3333%
+Batch 100,       Image 1000,     Train Loss:0.1645,      Train ACC:87.3000%
+Batch 110,       Image 1100,     Train Loss:0.1562,      Train ACC:87.4545%
+Batch 120,       Image 1200,     Train Loss:0.1470,      Train ACC:87.7500%
+Batch 130,       Image 1300,     Train Loss:0.1401,      Train ACC:88.1538%
+Batch 140,       Image 1400,     Train Loss:0.1328,      Train ACC:88.5714%
+Batch 150,       Image 1500,     Train Loss:0.1271,      Train ACC:88.7333%
+Batch 160,       Image 1600,     Train Loss:0.1248,      Train ACC:88.8750%
+Batch 170,       Image 1700,     Train Loss:0.1350,      Train ACC:88.5882%
+Batch 180,       Image 1800,     Train Loss:0.1348,      Train ACC:88.5556%
+Batch 190,       Image 1900,     Train Loss:0.1307,      Train ACC:88.6316%
+Batch 200,       Image 2000,     Train Loss:0.1258,      Train ACC:88.8000%
+train Loss:0.1258, Correct:88.8000%
+test Loss:0.0348, Correct:93.2000%
+Epoch1 training & testing time is: 17m 51s
+--------------------------------------------------
+Epoch2/5
+ --------------------------------------------------
+Batch 10,        Image 100,      Train Loss:0.0201,      Train ACC:97.0000%
+Batch 20,        Image 200,      Train Loss:0.0191,      Train ACC:96.0000%
+Batch 30,        Image 300,      Train Loss:0.0238,      Train ACC:95.0000%
+Batch 40,        Image 400,      Train Loss:0.0295,      Train ACC:94.7500%
+Batch 50,        Image 500,      Train Loss:0.0261,      Train ACC:95.2000%
+Batch 60,        Image 600,      Train Loss:0.0271,      Train ACC:94.6667%
+Batch 70,        Image 700,      Train Loss:0.0261,      Train ACC:95.0000%
+Batch 80,        Image 800,      Train Loss:0.0270,      Train ACC:95.2500%
+Batch 90,        Image 900,      Train Loss:0.0274,      Train ACC:95.4444%
+Batch 100,       Image 1000,     Train Loss:0.0247,      Train ACC:95.9000%
+Batch 110,       Image 1100,     Train Loss:0.0253,      Train ACC:95.9091%
+Batch 120,       Image 1200,     Train Loss:0.0271,      Train ACC:95.7500%
+Batch 130,       Image 1300,     Train Loss:0.0304,      Train ACC:95.6923%
+Batch 140,       Image 1400,     Train Loss:0.0303,      Train ACC:95.7143%
+Batch 150,       Image 1500,     Train Loss:0.0319,      Train ACC:95.4667%
+Batch 160,       Image 1600,     Train Loss:0.0315,      Train ACC:95.5000%
+Batch 170,       Image 1700,     Train Loss:0.0309,      Train ACC:95.6471%
+Batch 180,       Image 1800,     Train Loss:0.0307,      Train ACC:95.6667%
+Batch 190,       Image 1900,     Train Loss:0.0335,      Train ACC:95.6316%
+Batch 200,       Image 2000,     Train Loss:0.0339,      Train ACC:95.5500%
+train Loss:0.0339, Correct:95.5500%
+test Loss:0.0378, Correct:95.6000%
+Epoch2 training & testing time is: 16m 43s
+--------------------------------------------------
+Epoch3/5
+ --------------------------------------------------
+Batch 10,        Image 100,      Train Loss:0.0149,      Train ACC:97.0000%
+Batch 20,        Image 200,      Train Loss:0.0130,      Train ACC:98.0000%
+Batch 30,        Image 300,      Train Loss:0.0184,      Train ACC:97.6667%
+Batch 40,        Image 400,      Train Loss:0.0178,      Train ACC:97.7500%
+Batch 50,        Image 500,      Train Loss:0.0203,      Train ACC:97.8000%
+Batch 60,        Image 600,      Train Loss:0.0194,      Train ACC:98.0000%
+Batch 70,        Image 700,      Train Loss:0.0166,      Train ACC:98.2857%
+Batch 80,        Image 800,      Train Loss:0.0181,      Train ACC:98.1250%
+Batch 90,        Image 900,      Train Loss:0.0175,      Train ACC:98.1111%
+Batch 100,       Image 1000,     Train Loss:0.0184,      Train ACC:98.0000%
+Batch 110,       Image 1100,     Train Loss:0.0257,      Train ACC:97.8182%
+Batch 120,       Image 1200,     Train Loss:0.0363,      Train ACC:97.5000%
+Batch 130,       Image 1300,     Train Loss:0.0478,      Train ACC:97.0769%
+Batch 140,       Image 1400,     Train Loss:0.0461,      Train ACC:97.1429%
+Batch 150,       Image 1500,     Train Loss:0.0472,      Train ACC:97.1333%
+Batch 160,       Image 1600,     Train Loss:0.0454,      Train ACC:97.2500%
+Batch 170,       Image 1700,     Train Loss:0.0579,      Train ACC:96.7647%
+Batch 180,       Image 1800,     Train Loss:0.0621,      Train ACC:96.8333%
+Batch 190,       Image 1900,     Train Loss:0.0874,      Train ACC:96.5263%
+Batch 200,       Image 2000,     Train Loss:0.0927,      Train ACC:96.3500%
+train Loss:0.0927, Correct:96.3500%
+test Loss:0.2201, Correct:92.1000%
+Epoch3 training & testing time is: 16m 48s
+-------------------------------------------------- 
+Epoch4/5
+ --------------------------------------------------
+Batch 10,        Image 100,      Train Loss:0.8451,      Train ACC:86.0000%
+Batch 20,        Image 200,      Train Loss:0.6393,      Train ACC:90.5000%
+Batch 30,        Image 300,      Train Loss:0.4409,      Train ACC:92.6667%
+Batch 40,        Image 400,      Train Loss:0.3806,      Train ACC:93.5000%
+Batch 50,        Image 500,      Train Loss:0.3065,      Train ACC:94.6000%
+Batch 60,        Image 600,      Train Loss:0.2607,      Train ACC:95.0000%
+Batch 70,        Image 700,      Train Loss:0.2461,      Train ACC:95.4286%
+Batch 80,        Image 800,      Train Loss:0.2387,      Train ACC:95.5000%
+Batch 90,        Image 900,      Train Loss:0.2198,      Train ACC:95.8889%
+Batch 100,       Image 1000,     Train Loss:0.2005,      Train ACC:96.0000%
+Batch 110,       Image 1100,     Train Loss:0.1916,      Train ACC:96.0000%
+Batch 120,       Image 1200,     Train Loss:0.1870,      Train ACC:95.9167%
+Batch 130,       Image 1300,     Train Loss:0.1737,      Train ACC:96.0769%
+Batch 140,       Image 1400,     Train Loss:0.1774,      Train ACC:96.0000%
+Batch 150,       Image 1500,     Train Loss:0.1804,      Train ACC:95.9333%
+Batch 160,       Image 1600,     Train Loss:0.1734,      Train ACC:96.0625%
+Batch 170,       Image 1700,     Train Loss:0.1858,      Train ACC:96.0000%
+Batch 180,       Image 1800,     Train Loss:0.1862,      Train ACC:96.0000%
+Batch 190,       Image 1900,     Train Loss:0.1846,      Train ACC:96.0000%
+Batch 200,       Image 2000,     Train Loss:0.1829,      Train ACC:96.0500%
+train Loss:0.1829, Correct:96.0500%
+test Loss:0.4702, Correct:91.6000%
+Epoch4 training & testing time is: 18m 29s
+--------------------------------------------------
+Epoch5/5
+ --------------------------------------------------
+Batch 10,        Image 100,      Train Loss:0.1273,      Train ACC:97.0000%
+Batch 20,        Image 200,      Train Loss:0.1143,      Train ACC:97.0000%
+Batch 30,        Image 300,      Train Loss:0.0762,      Train ACC:98.0000%
+Batch 40,        Image 400,      Train Loss:0.1076,      Train ACC:96.5000%
+Batch 50,        Image 500,      Train Loss:0.1153,      Train ACC:96.8000%
+Batch 60,        Image 600,      Train Loss:0.1510,      Train ACC:96.5000%
+Batch 70,        Image 700,      Train Loss:0.1631,      Train ACC:96.0000%
+Batch 80,        Image 800,      Train Loss:0.1532,      Train ACC:96.2500%
+Batch 90,        Image 900,      Train Loss:0.1409,      Train ACC:96.4444%
+Batch 100,       Image 1000,     Train Loss:0.1331,      Train ACC:96.6000%
+Batch 110,       Image 1100,     Train Loss:0.1232,      Train ACC:96.8182%
+Batch 120,       Image 1200,     Train Loss:0.1130,      Train ACC:97.0833%
+Batch 130,       Image 1300,     Train Loss:0.1046,      Train ACC:97.2308%
+Batch 140,       Image 1400,     Train Loss:0.0978,      Train ACC:97.3571%
+Batch 150,       Image 1500,     Train Loss:0.0960,      Train ACC:97.3333%
+Batch 160,       Image 1600,     Train Loss:0.0949,      Train ACC:97.4375%
+Batch 170,       Image 1700,     Train Loss:0.0968,      Train ACC:97.4118%
+Batch 180,       Image 1800,     Train Loss:0.1053,      Train ACC:97.1111%
+Batch 190,       Image 1900,     Train Loss:0.1277,      Train ACC:96.8947%
+Batch 200,       Image 2000,     Train Loss:0.1296,      Train ACC:96.9500%
+train Loss:0.1296, Correct:96.9500%
+test Loss:0.4617, Correct:91.3000%
+Epoch5 training & testing time is: 19m 25s
