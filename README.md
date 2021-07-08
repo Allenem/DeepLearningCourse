@@ -7,6 +7,7 @@
 - hw2：猫狗二分类（准确率91%以上）
 - hw3：自动写诗（首句写诗，藏头写诗）
 - hw4：电影中文影评情感分类（准确率，精度，召回率，F1分数，混淆矩阵指标分别达到了：86.18%，0.8626，0.8579，0.8603，[[157.0, 26.0], [25.0, 161.0]]）
+- hw5：车牌识别，省份、地区、5个字符，3部分验证集准确率分别达到 100%，100%，98.5%。
 
 ## 文件列表结构
 
@@ -17,10 +18,10 @@
 - 实验3数据：`tang.npz` 文件较小，已上传至本仓库，或者：链接：https://pan.baidu.com/s/1dtf9HOEY1jzqR51tyyQfjg 提取码：65qv 复制这段内容后打开百度网盘手机App，操作更方便哦
 - 实验4数据：`Dataset` (包含`test.txt`, `train.txt`, `validation.txt`, `wiki_word2vec_50.bin`)：链接：https://pan.baidu.com/s/1VDYXwjSLO1sTC0XJKq9ggA 
 提取码：buuq 复制这段内容后打开百度网盘手机App，操作更方便哦
-            
-            
-            
-            
+- 实验5数据：`LPD_dataset`原始街道拍的含车牌汽车图像，`dataset-train&val`韩train和validation两个文件夹，分别包含province、area、letter三个文件夹，包含将车牌分割好的单个字块。PROVINCES = ("沪", "京", "闽", "苏", "粤", "浙"), AREAS = ("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"), LETTERS = ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z")链接：https://pan.baidu.com/s/192uU_MrW2kOCVzfocR6zWg 
+提取码：3ry8
+
+以下结构为完整结构：            
 
 ```
 .
@@ -96,15 +97,77 @@
 │      实验报告.docx
 │      实验报告.pptx
 │
-└─hw4_movie_chinese_comments_sentiment_classification
-    │  Chinese_movie_comments_sentiment_classification.ipynb
-    │  model.pth
+├─hw4_movie_chinese_comments_sentiment_classification
+│    │  Chinese_movie_comments_sentiment_classification.ipynb
+│    │  model.pth
+│    │  实验报告.docx
+│    │  实验报告.pptx
+│    │
+│    └─Dataset
+│            test.txt
+│            train.txt
+│            validation.txt
+│            wiki_word2vec_50.bin
+│
+└─hw5_vehicle_license_plate_recognition
+    │  preprocessing.py
+    │  train-license-province.py
+    │  train-license-area.py
+    │  train-license-letter.py
     │  实验报告.docx
     │  实验报告.pptx
-    │
-    └─Dataset
-            test.txt
-            train.txt
-            validation.txt
-            wiki_word2vec_50.bin
+    │  
+    ├─LPD_dataset
+    │  ├─train
+    │  └─val
+    │  
+    ├─preprocessed
+    │  ├─train
+    │  │  ├─correct
+    │  │  ├─crop
+    │  │  │  ├─川A09X20
+    ...
+    │  │  │  └─粤BA103N
+    │  │  └─rgb2gray
+    │  └─val
+    │      ├─correct
+    │      ├─crop
+    │      │  ├─浙A03168
+    ...
+    │      │  └─粤X30479
+    │      └─rgb2gray
+    │  
+    ├─dataset-train&val
+    │  ├─training-set
+    │  │  ├─area
+    │  │  │  ├─10
+    ...
+    │  │  │  └─35
+    │  │  ├─letter
+    │  │  │  ├─0
+    ...
+    │  │  │  ├─33
+    │  │  └─province
+    │  │      ├─0
+    ...
+    │  │      └─5
+    │  └─validation-set
+    │    ├─area
+    │    │  ├─10
+    ...
+    │    │  └─35
+    │    ├─letter
+    │    │  ├─0
+    ...
+    │    │  ├─33
+    │    └─province
+    │        ├─0
+    ...
+    │        └─5
+    │  
+    ├─test_images
+    └─train-saver
+        ├─area
+        ├─letter
+        └─province
 ```
